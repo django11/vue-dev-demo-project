@@ -9,7 +9,11 @@ export default new Vuex.Store({
       1: [
         'test1',
         'demo2',
-        'tree3'
+        'tree3',
+        'car',
+        'bike',
+        'dog',
+        'cat'
       ],
       2: [
         'xxx',

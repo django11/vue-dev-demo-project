@@ -2,7 +2,7 @@
   <div class="home mb-5">
     <h1 class="my-5">Demo</h1>
     <div class="row">
-      <CartComponent :cart="1" :cart-list="cartList" key="cart1" @on-item-select="setItem"/>
+      <CartComponent :cart="1" key="cart1" @on-item-select="setItem"/>
       <div class="col-md-1">
         <div class="d-flex h-100 my-2 mx-3 flex-md-column justify-content-center align-items-center controls">
           <button class="btn m-1 btn-sm btn-secondary" @click="movieAll(1, 2)">
@@ -19,7 +19,7 @@
           </button>
         </div>
       </div>
-      <CartComponent :cart="2" :cart-list="cartList2" key="cart2" @on-item-select="setItem"/>
+      <CartComponent :cart="2" key="cart2" @on-item-select="setItem"/>
     </div>
   </div>
 </template>
